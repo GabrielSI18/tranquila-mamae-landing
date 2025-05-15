@@ -5,7 +5,7 @@ const OfferSection = () => {
       <div className="container-custom">
         <div className="max-w-4xl mx-auto">
           <Card className="border-primary/20 shadow-xl overflow-hidden">
-            <div className="bg-gradient-to-r from-bg-violet-800 to-bg-violet-500 py-4 px-6">
+            <div className="bg-gradient-to-r from-violet-800 to-violet-500 py-4 px-6">
               <h3 className="text-xl md:text-2xl font-bold text-white text-center">
                 Oferta Especial por Tempo Limitado
               </h3>
