@@ -47,6 +47,7 @@ const TestimonialsSection = () => {
                       <img 
                         src="/mae1.png" 
                         alt="Mãe1" 
+                        className="w-full h-full object-cover rounded-full"
                       />
                     </div>
                   </div>
@@ -87,7 +88,13 @@ const TestimonialsSection = () => {
                 <div className="mt-auto flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-gray-200 flex-shrink-0">
                     {/* Placeholder for user image */}
-                    <div className="w-full h-full rounded-full bg-gradient-to-br from-secondary to-accent flex items-center justify-center text-white font-semibold">MO</div>
+                    <div className="w-full h-full rounded-full bg-gradient-to-br from-secondary to-accent flex items-center justify-center text-white font-semibold">
+                      <img 
+                        src="/mae2.jpg" 
+                        alt="Mãe2" 
+                        className="w-full h-full object-cover rounded-full"
+                      />
+                    </div>
                   </div>
                   <div>
                     <h4 className="font-semibold">Mariana Oliveira</h4>
@@ -126,7 +133,13 @@ const TestimonialsSection = () => {
                 <div className="mt-auto flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-gray-200 flex-shrink-0">
                     {/* Placeholder for user image */}
-                    <div className="w-full h-full rounded-full bg-gradient-to-br from-accent to-primary flex items-center justify-center text-white font-semibold">LS</div>
+                    <div className="w-full h-full rounded-full bg-gradient-to-br from-accent to-primary flex items-center justify-center text-white font-semibold">
+                      <img 
+                        src="/mae3.png" 
+                        alt="Mãe3" 
+                        className="w-full h-full object-cover rounded-full"
+                      />
+                    </div>
                   </div>
                   <div>
                     <h4 className="font-semibold">Luiza Santos</h4>
