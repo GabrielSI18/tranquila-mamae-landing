@@ -15,12 +15,12 @@ const OfferSection = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div>
                   <div className="flex items-baseline gap-2 mb-2">
-                    <span className="text-muted-foreground line-through text-lg">De R$ 297,00</span>
+                    <span className="text-muted-foreground line-through text-lg">De R$ 97,00</span>
                     <span className="bg-secondary/20 text-secondary-foreground text-sm px-2 py-1 rounded">50% OFF</span>
                   </div>
                   
                   <div className="mb-6">
-                    <span className="text-3xl md:text-5xl font-bold text-primary-foreground">R$ 147,00</span>
+                    <span className="text-3xl md:text-5xl font-bold text-primary-foreground">R$ 29,90</span>
                     <span className="text-muted-foreground ml-2">à vista ou em até 12x</span>
                   </div>
                   
