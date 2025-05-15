@@ -38,7 +38,7 @@ const Footer = () => {
               <li><a href="#faq" className="text-muted-foreground hover:text-primary-foreground transition-colors">FAQ</a></li>
             </ul>
           </div>
-          
+          {/* 
           <div>
             <h4 className="font-semibold mb-4">Suporte</h4>
             <ul className="space-y-2">
@@ -49,7 +49,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
+        */}
         <div className="border-t border-primary/10 mt-8 pt-8 text-center text-muted-foreground text-sm">
           <p>&copy; {new Date().getFullYear()} Mamãe Tranquila. Todos os direitos reservados.</p>
         </div>
