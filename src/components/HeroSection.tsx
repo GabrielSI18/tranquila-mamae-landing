@@ -14,7 +14,7 @@ const HeroSection = () => {
             Descubra o que milhares de mães estão fazendo para viver a maternidade com mais leveza, segurança e amor.
           </p>
           
-          <Button size="lg" className="btn-gradient shadow-lg text-white font-semibold text-lg py-6 px-8 rounded-full">
+          <Button size="lg" className="bg-[#1A1F2C] hover:bg-[#1A1F2C]/90 shadow-lg text-white font-semibold text-lg py-6 px-8 rounded-full">
             Quero minha maternidade mais leve
           </Button>
           
