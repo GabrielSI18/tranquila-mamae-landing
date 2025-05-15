@@ -16,7 +16,7 @@ const OfferSection = () => {
                 <div>
                   <div className="flex items-baseline gap-2 mb-2">
                     <span className="text-muted-foreground line-through text-lg">De R$ 97,00</span>
-                    <span className="bg-secondary/20 text-secondary-foreground text-sm px-2 py-1 rounded">50% OFF</span>
+                    <span className="bg-secondary/20 text-secondary-foreground text-sm px-2 py-1 rounded">70% OFF</span>
                   </div>
                   
                   <div className="mb-6">
