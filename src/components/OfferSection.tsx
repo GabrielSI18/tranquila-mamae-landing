@@ -69,7 +69,7 @@ const OfferSection = () => {
                 </div>
                 
                 <div className="flex flex-col">
-                  <Button size="lg" className="btn-gradient shadow-xl text-white font-semibold text-xl py-7 px-8 rounded-full mb-4 bg-violet-800 hover:bg-violet-700">
+                  <Button size="lg" className="shadow-xl text-white font-semibold text-xl py-7 px-8 rounded-full mb-4 bg-violet-800 hover:bg-violet-700">
                     Quero minha maternidade mais leve
                   </Button>
                   
