@@ -9,6 +9,7 @@ const Footer = () => {
             <p className="text-muted-foreground max-w-md mb-4">
               Ajudando mães de primeira viagem a vivenciarem a maternidade com mais tranquilidade, confiança e alegria.
             </p>
+            {/* 
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary-foreground hover:bg-primary/20 transition-colors">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,6 +28,7 @@ const Footer = () => {
                 </svg>
               </a>
             </div>
+             */}
           </div>
           
           <div>
