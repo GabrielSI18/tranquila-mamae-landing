@@ -1,9 +1,6 @@
-
 import { Button } from "@/components/ui/button";
-
 const ProductSection = () => {
-  return (
-    <section className="section bg-gradient-to-b from-background to-primary/30" id="produto">
+  return <section className="section bg-gradient-to-b from-background to-primary/30" id="produto">
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
@@ -17,19 +14,19 @@ const ProductSection = () => {
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-4">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.7519 4.43097C11.1526 3.51756 12.467 3.51756 12.8677 4.43097L14.7133 8.69995L19.4187 9.20277C20.4159 9.32054 20.8147 10.5682 20.0899 11.2627L16.6752 14.5165L17.458 19.1954C17.6262 20.1836 16.5727 20.9319 15.6938 20.4405L11.8098 18.246L7.9258 20.4405C7.04692 20.9319 5.99339 20.1836 6.16154 19.1954L6.94437 14.5165L3.52968 11.2627C2.80484 10.5682 3.20364 9.32054 4.2009 9.20277L8.90629 8.69995L10.7519 4.43097Z" fill="#FFD700"/>
+                    <path d="M10.7519 4.43097C11.1526 3.51756 12.467 3.51756 12.8677 4.43097L14.7133 8.69995L19.4187 9.20277C20.4159 9.32054 20.8147 10.5682 20.0899 11.2627L16.6752 14.5165L17.458 19.1954C17.6262 20.1836 16.5727 20.9319 15.6938 20.4405L11.8098 18.246L7.9258 20.4405C7.04692 20.9319 5.99339 20.1836 6.16154 19.1954L6.94437 14.5165L3.52968 11.2627C2.80484 10.5682 3.20364 9.32054 4.2009 9.20277L8.90629 8.69995L10.7519 4.43097Z" fill="#FFD700" />
                   </svg>
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.7519 4.43097C11.1526 3.51756 12.467 3.51756 12.8677 4.43097L14.7133 8.69995L19.4187 9.20277C20.4159 9.32054 20.8147 10.5682 20.0899 11.2627L16.6752 14.5165L17.458 19.1954C17.6262 20.1836 16.5727 20.9319 15.6938 20.4405L11.8098 18.246L7.9258 20.4405C7.04692 20.9319 5.99339 20.1836 6.16154 19.1954L6.94437 14.5165L3.52968 11.2627C2.80484 10.5682 3.20364 9.32054 4.2009 9.20277L8.90629 8.69995L10.7519 4.43097Z" fill="#FFD700"/>
+                    <path d="M10.7519 4.43097C11.1526 3.51756 12.467 3.51756 12.8677 4.43097L14.7133 8.69995L19.4187 9.20277C20.4159 9.32054 20.8147 10.5682 20.0899 11.2627L16.6752 14.5165L17.458 19.1954C17.6262 20.1836 16.5727 20.9319 15.6938 20.4405L11.8098 18.246L7.9258 20.4405C7.04692 20.9319 5.99339 20.1836 6.16154 19.1954L6.94437 14.5165L3.52968 11.2627C2.80484 10.5682 3.20364 9.32054 4.2009 9.20277L8.90629 8.69995L10.7519 4.43097Z" fill="#FFD700" />
                   </svg>
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.7519 4.43097C11.1526 3.51756 12.467 3.51756 12.8677 4.43097L14.7133 8.69995L19.4187 9.20277C20.4159 9.32054 20.8147 10.5682 20.0899 11.2627L16.6752 14.5165L17.458 19.1954C17.6262 20.1836 16.5727 20.9319 15.6938 20.4405L11.8098 18.246L7.9258 20.4405C7.04692 20.9319 5.99339 20.1836 6.16154 19.1954L6.94437 14.5165L3.52968 11.2627C2.80484 10.5682 3.20364 9.32054 4.2009 9.20277L8.90629 8.69995L10.7519 4.43097Z" fill="#FFD700"/>
+                    <path d="M10.7519 4.43097C11.1526 3.51756 12.467 3.51756 12.8677 4.43097L14.7133 8.69995L19.4187 9.20277C20.4159 9.32054 20.8147 10.5682 20.0899 11.2627L16.6752 14.5165L17.458 19.1954C17.6262 20.1836 16.5727 20.9319 15.6938 20.4405L11.8098 18.246L7.9258 20.4405C7.04692 20.9319 5.99339 20.1836 6.16154 19.1954L6.94437 14.5165L3.52968 11.2627C2.80484 10.5682 3.20364 9.32054 4.2009 9.20277L8.90629 8.69995L10.7519 4.43097Z" fill="#FFD700" />
                   </svg>
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.7519 4.43097C11.1526 3.51756 12.467 3.51756 12.8677 4.43097L14.7133 8.69995L19.4187 9.20277C20.4159 9.32054 20.8147 10.5682 20.0899 11.2627L16.6752 14.5165L17.458 19.1954C17.6262 20.1836 16.5727 20.9319 15.6938 20.4405L11.8098 18.246L7.9258 20.4405C7.04692 20.9319 5.99339 20.1836 6.16154 19.1954L6.94437 14.5165L3.52968 11.2627C2.80484 10.5682 3.20364 9.32054 4.2009 9.20277L8.90629 8.69995L10.7519 4.43097Z" fill="#FFD700"/>
+                    <path d="M10.7519 4.43097C11.1526 3.51756 12.467 3.51756 12.8677 4.43097L14.7133 8.69995L19.4187 9.20277C20.4159 9.32054 20.8147 10.5682 20.0899 11.2627L16.6752 14.5165L17.458 19.1954C17.6262 20.1836 16.5727 20.9319 15.6938 20.4405L11.8098 18.246L7.9258 20.4405C7.04692 20.9319 5.99339 20.1836 6.16154 19.1954L6.94437 14.5165L3.52968 11.2627C2.80484 10.5682 3.20364 9.32054 4.2009 9.20277L8.90629 8.69995L10.7519 4.43097Z" fill="#FFD700" />
                   </svg>
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.7519 4.43097C11.1526 3.51756 12.467 3.51756 12.8677 4.43097L14.7133 8.69995L19.4187 9.20277C20.4159 9.32054 20.8147 10.5682 20.0899 11.2627L16.6752 14.5165L17.458 19.1954C17.6262 20.1836 16.5727 20.9319 15.6938 20.4405L11.8098 18.246L7.9258 20.4405C7.04692 20.9319 5.99339 20.1836 6.16154 19.1954L6.94437 14.5165L3.52968 11.2627C2.80484 10.5682 3.20364 9.32054 4.2009 9.20277L8.90629 8.69995L10.7519 4.43097Z" fill="#FFD700"/>
+                    <path d="M10.7519 4.43097C11.1526 3.51756 12.467 3.51756 12.8677 4.43097L14.7133 8.69995L19.4187 9.20277C20.4159 9.32054 20.8147 10.5682 20.0899 11.2627L16.6752 14.5165L17.458 19.1954C17.6262 20.1836 16.5727 20.9319 15.6938 20.4405L11.8098 18.246L7.9258 20.4405C7.04692 20.9319 5.99339 20.1836 6.16154 19.1954L6.94437 14.5165L3.52968 11.2627C2.80484 10.5682 3.20364 9.32054 4.2009 9.20277L8.90629 8.69995L10.7519 4.43097Z" fill="#FFD700" />
                   </svg>
                   <span className="text-sm font-medium text-muted-foreground ml-2">4.9/5 (387 avaliações)</span>
                 </div>
@@ -54,7 +51,7 @@ const ProductSection = () => {
               <div className="flex items-start gap-3">
                 <div className="w-6 h-6 rounded-full bg-primary/40 flex items-center justify-center shrink-0 mt-1">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5 12L10 17L20 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M5 12L10 17L20 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </div>
                 <div>
@@ -66,7 +63,7 @@ const ProductSection = () => {
               <div className="flex items-start gap-3">
                 <div className="w-6 h-6 rounded-full bg-primary/40 flex items-center justify-center shrink-0 mt-1">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5 12L10 17L20 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M5 12L10 17L20 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </div>
                 <div>
@@ -78,7 +75,7 @@ const ProductSection = () => {
               <div className="flex items-start gap-3">
                 <div className="w-6 h-6 rounded-full bg-primary/40 flex items-center justify-center shrink-0 mt-1">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5 12L10 17L20 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M5 12L10 17L20 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </div>
                 <div>
@@ -88,14 +85,12 @@ const ProductSection = () => {
               </div>
             </div>
             
-            <Button size="lg" className="btn-gradient shadow-lg text-white font-semibold text-lg py-6 px-8 rounded-full w-full md:w-auto">
+            <Button size="lg" className="btn-gradient shadow-lg text-white font-semibold text-lg py-6 px-8 rounded-full w-full md:w-auto bg-violet-800 hover:bg-violet-700">
               Quero minha maternidade mais leve
             </Button>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ProductSection;
