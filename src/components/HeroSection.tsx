@@ -1,9 +1,6 @@
-
 import { Button } from "@/components/ui/button";
-
 const HeroSection = () => {
-  return (
-    <section className="pt-16 pb-12 md:pt-24 md:pb-20 overflow-hidden bg-gradient-to-b from-primary/30 to-background">
+  return <section className="pt-16 pb-12 md:pt-24 md:pb-20 overflow-hidden bg-gradient-to-b from-primary/30 to-background">
       <div className="container-custom">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold leading-tight mb-4 text-primary-foreground">
@@ -14,7 +11,7 @@ const HeroSection = () => {
             Descubra o que milhares de mães estão fazendo para viver a maternidade com mais leveza, segurança e amor.
           </p>
           
-          <Button size="lg" className="bg-[#1A1F2C] hover:bg-[#1A1F2C]/90 shadow-lg text-white font-semibold text-lg py-6 px-8 rounded-full">
+          <Button size="lg" className="shadow-lg text-white font-semibold text-lg py-6 px-8 rounded-full bg-violet-900 hover:bg-violet-800">
             Quero minha maternidade mais leve
           </Button>
           
@@ -46,8 +43,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
