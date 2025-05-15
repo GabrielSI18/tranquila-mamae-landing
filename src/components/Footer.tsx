@@ -48,8 +48,9 @@ const Footer = () => {
               <li><a href="#" className="text-muted-foreground hover:text-primary-foreground transition-colors">Política de Reembolso</a></li>
             </ul>
           </div>
+           */}
         </div>
-        */}
+        
         <div className="border-t border-primary/10 mt-8 pt-8 text-center text-muted-foreground text-sm">
           <p>&copy; {new Date().getFullYear()} Mamãe Tranquila. Todos os direitos reservados.</p>
         </div>
