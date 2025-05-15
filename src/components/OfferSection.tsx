@@ -95,7 +95,7 @@ const OfferSection = () => {
                       Teste o produto por 7 dias. Se não ficar satisfeita por qualquer motivo, devolveremos 100% do seu dinheiro. Sem perguntas, sem burocracia.
                     </p>
                   </div>
-                  
+                  {/* 
                   <div className="flex justify-center gap-3">
                     <img src="https://placehold.co/40x25/png" alt="Visa" className="h-6 w-auto" />
                     <img src="https://placehold.co/40x25/png" alt="Mastercard" className="h-6 w-auto" />
@@ -103,6 +103,7 @@ const OfferSection = () => {
                     <img src="https://placehold.co/40x25/png" alt="Pix" className="h-6 w-auto" />
                     <img src="https://placehold.co/40x25/png" alt="Boleto" className="h-6 w-auto" />
                   </div>
+                   */}
                 </div>
               </div>
             </CardContent>
