@@ -6,7 +6,7 @@ const ProductSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <div className="bg-white rounded-2xl shadow-xl border border-primary/20 overflow-hidden">
-              <div className="aspect-video w-full">
+              <div className="w-full">
                 <img 
                   src="/imagem1.png" 
                   alt="Mãe segurando bebê com carinho em fundo lilás" 
