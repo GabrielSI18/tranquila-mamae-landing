@@ -8,7 +8,7 @@ const ProductSection = () => {
             <div className="bg-white rounded-2xl shadow-xl border border-primary/20 overflow-hidden">
               <div className="aspect-video w-full">
                 <img 
-                  src="/lovable-uploads/6d2221ab-0eb1-4b11-aa05-9cc76edbb536.png" 
+                  src="/imagem1.png" 
                   alt="Mãe segurando bebê com carinho em fundo lilás" 
                   className="w-full h-full object-cover"
                 />
