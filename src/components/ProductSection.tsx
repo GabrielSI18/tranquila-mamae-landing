@@ -85,7 +85,7 @@ const ProductSection = () => {
               </div>
             </div>
             
-            <Button size="lg" className="btn-gradient shadow-lg text-white font-semibold text-lg py-6 px-8 rounded-full w-full md:w-auto bg-violet-900 hover:bg-violet-800">
+            <Button size="lg" className="btn-gradient shadow-lg text-white font-semibold text-lg py-6 px-8 rounded-full w-full md:w-auto bg-violet-800 hover:bg-violet-700">
               Quero minha maternidade mais leve
             </Button>
           </div>
