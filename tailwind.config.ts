@@ -33,6 +33,14 @@ export default {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
 				},
+				barb1: {
+					DEFAULT: 'hsl(280.21deg 44.46% 20.17%), hsl(271deg 100% 50%);',
+					foreground: 'hsl(var(--secondary-foreground))'
+				},
+				barb2: {
+					DEFAULT: 'hsl(280.21deg 44.46% 20.17%), hsl(271deg 100% 50%);',
+					foreground: 'hsl(var(--secondary-foreground))'
+				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
