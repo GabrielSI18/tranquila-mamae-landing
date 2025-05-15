@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const FinalCTASection = () => {
   return (
-    <section className="section bg-gradient-to-r from-violet-800 to-violet-400 py-16">
+    <section className="section bg-gradient-to-r from-violet-800 to-violet-500 py-16">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-display font-bold mb-6 text-white">
