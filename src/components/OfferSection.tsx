@@ -69,7 +69,7 @@ const OfferSection = () => {
                 </div>
                 
                 <div className="flex flex-col">
-                  <Button size="lg" className="shadow-xl text-white font-semibold text-base md:text-xl py-3 px-6 rounded-full mb-4 bg-violet-800 hover:bg-violet-700 leading-tight whitespace-normal text-center">
+                  <Button size="lg" className="shadow-xl text-white font-semibold text-base md:text-xl py-3 px-6 rounded-full mb-4 bg-violet-800 hover:bg-violet-700 leading-tight whitespace-normal text-center"   onClick={() => (window.location.href = "https://pay.kirvano.com/723dbad7-ba44-4223-acc9-a874956fc05b")}>
                     Quero minha maternidade mais leve
                   </Button>
 

@@ -1,7 +1,10 @@
 
 import { Button } from "@/components/ui/button";
-
+import { useNavigate } from "react-router-dom";
+  
 const FinalCTASection = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="section bg-gradient-to-r from-violet-800 to-violet-500 py-16">
       <div className="container-custom">
@@ -14,7 +17,7 @@ const FinalCTASection = () => {
             Junte-se às milhares de mães que estão transformando a maternidade em uma experiência mais tranquila e feliz.
           </p>
           
-          <Button size="lg" className="bg-white text-primary-foreground hover:bg-white/90 font-semibold text-lg py-6 px-8 rounded-full shadow-lg transition-all duration-300 hover:shadow-xl">
+          <Button size="lg" className="bg-white text-primary-foreground hover:bg-white/90 font-semibold text-lg py-6 px-8 rounded-full shadow-lg transition-all duration-300 hover:shadow-xl" onClick={() => document.getElementById("oferta")?.scrollIntoView({ behavior: "smooth" })}>
             Quero minha maternidade mais leve
           </Button>
           
