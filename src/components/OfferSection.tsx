@@ -69,9 +69,10 @@ const OfferSection = () => {
                 </div>
                 
                 <div className="flex flex-col">
-                  <Button size="lg" className="shadow-xl text-white font-semibold text-xl py-7 px-8 rounded-full mb-4 bg-violet-800 hover:bg-violet-700">
+                  <Button size="lg" className="shadow-xl text-white font-semibold text-base md:text-xl py-3 px-6 rounded-full mb-4 bg-violet-800 hover:bg-violet-700 leading-tight whitespace-normal text-center">
                     Quero minha maternidade mais leve
                   </Button>
+
                   
                   <div className="flex items-center justify-center gap-2 mb-4">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
