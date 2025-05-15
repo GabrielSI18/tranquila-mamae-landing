@@ -6,11 +6,12 @@ const ProductSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <div className="bg-white rounded-2xl shadow-xl border border-primary/20 overflow-hidden">
-              <div className="aspect-video bg-gray-200 w-full">
-                {/* Placeholder for product image or video */}
-                <div className="w-full h-full flex items-center justify-center bg-gradient-custom">
-                  <span className="text-white font-semibold">Imagem do Produto Mamãe Tranquila</span>
-                </div>
+              <div className="aspect-video w-full">
+                <img 
+                  src="/lovable-uploads/6d2221ab-0eb1-4b11-aa05-9cc76edbb536.png" 
+                  alt="Mãe segurando bebê com carinho em fundo lilás" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-4">
