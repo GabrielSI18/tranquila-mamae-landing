@@ -43,7 +43,12 @@ const TestimonialsSection = () => {
                 <div className="mt-auto flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-gray-200 flex-shrink-0">
                     {/* Placeholder for user image */}
-                    <div className="w-full h-full rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white font-semibold">CP</div>
+                    <div className="w-full h-full rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white font-semibold">
+                      <img 
+                        src="/mae1.png" 
+                        alt="Mãe1" 
+                      />
+                    </div>
                   </div>
                   <div>
                     <h4 className="font-semibold">Carla Pereira</h4>
